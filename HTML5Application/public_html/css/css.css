@@ -155,7 +155,7 @@ form {
 
 #name, #lastname, input[type=text] {
   width: 30%;
-  padding: 10px 20px;
+  padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
   border: 3px solid #7e7e7e;
@@ -164,7 +164,7 @@ form {
 
 #zip, #city, #country, input[type=text] {
   width: 19.86%;
-  padding: 10px 20px;
+  padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
   border: 3px solid #7e7e7e;
@@ -173,7 +173,7 @@ form {
 
 input[type=tel] {
   width: 29.95%;
-  padding: 10px 20px;
+  padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
   border: 3px solid #7e7e7e;
@@ -182,7 +182,7 @@ input[type=tel] {
 
 input[type=email] {
   width: 29.95%;
-  padding: 10px 20px;
+  padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
   border: 3px solid #7e7e7e;
@@ -191,7 +191,7 @@ input[type=email] {
 
 #subject, input[type=text] {
   width: 60.25%;
-  padding: 10px 20px;
+  padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
   border: 3px solid #7e7e7e;
@@ -201,7 +201,7 @@ input[type=email] {
 textarea{
   width: 60.25%;
   height: 75px;
-  padding: 10px 20px;
+  padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
   border: 3px solid #7e7e7e;
@@ -213,7 +213,7 @@ input[type=submit] {
   background-color: #A9A9A9;
   width: 100px;
   color: white;
-  padding: 10px 20px;
+  padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -225,7 +225,7 @@ input[type=reset] {
   background-color: #D3D3D3;
   width: 100px;
   color: black;
-  padding: 10px 20px;
+  padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
