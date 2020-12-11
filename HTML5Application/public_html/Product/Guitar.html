@@ -9,47 +9,75 @@ and open the template in the editor.
         <title>RhyChords</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/png" href="pics/favicon-32x32.png" sizes="32x32" />
-	<link rel="icon" type="image/png" href="pics/favicon-16x16.png" sizes="16x16" />
+	<link rel="apple-touch-icon" sizes="180x180" href="../pics/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../pics/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../pics/favicon/favicon-16x16.png">
+        <link rel="manifest" href="../pics/favicon/site.webmanifest">
         <link rel="stylesheet" href="../css/css.css" type="text/css">
-
-
-
     </head>
+    
     <body>
-        <header>
-            <div class="header">
-                <img src="pics/logo.png" alt="logo" width="450"> <br>
-                <a href="index.html">Main</a> |
-                <div class="dropdown"> Product |
-                    <div class="dropdown-content">
-                            <a href="product1.html">Guitar</a>
-                            <a href="product2.html">Bass</a>
-                            <a href="product2.html">Ukulele</a>
-                    </div>
-                </div>
-                <div class="dropdown"> Discover Us
-                    <div class="dropdown-content">
-                            <a href="product1.html">About Us</a>
-                            <a href="product2.html">Partners</a>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <hr/> <!-- LINE -->
-        <img src="pics/logo.png" alt="logo" width="155">
-        <div class="push"></div>
         
-        <hr/> <!-- LINE -->
-        <footer class="row">
-            <div class="column left">
-                <small> &copy; 2018, RhyChords Inc. All Rights Reserved. </small>
+        
+        <div class="header">
+            <a href="index.html">
+                <img src="../pics/logo.png" alt="logo" width="450">
+            </a> 
+            <br>
+            <a href="../index.html">Main</a> |
+            <div class="dropdown"> <a href="../Product.html">Product</a>  |
+                <div class="dropdown-content">
+                        <a href="guitar.html">Guitar</a>
+                        <a href="bass.html">Bass</a>
+                        <a href="ukulele.html">Ukulele</a>
+                </div>
             </div>
-            <div class="column right">
-                <img src="pics/mail.png" alt="mail logo" width="15"> Contact Us 
-                <br>
-                <img src="pics/location.png" alt="location logo" width="15"> Location
+            <div class="dropdown"> Discover Us
+                <div class="dropdown-content">
+                        <a href="product1.html">About Us</a>
+                        <a href="product2.html">Partners</a>
+                </div>
             </div>
-	</footer>
+        </div>
+        
+        <div class="card">
+            <div class="rowBody">
+                <div class="columnBody">
+                    <h3>Acoustic Guitar</h3>
+                    <br>    
+                    <a href="guitar/acousticguitar.html">
+                        <img src="guitar/acoustic guitar/ag1.jpg" alt="Acoustic Guitar" class="threeImg">
+                    </a>
+                </div>
+                <div class="columnBody">
+                    <h3>Electric Guitar</h3>
+                    <br>    
+                    <a href="guitar/electricguitar.html">
+                        <img src="guitar/electric guitar/eg1.jpg" alt="Electric Guitar" class="threeImg">
+                    </a>
+                </div>
+                <div class="columnBody">
+                    <h3>Classical Guitar</h3>
+                    <br>    
+                    <a href="guitar/classicalguitar.html">
+                        <img src="guitar/classical guitar/cg1.jpg" alt="Semi Acoustic Guitar" class="threeImg">
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="row">
+                <div class="column left">
+                    <small> &copy; 2018, RhyChords Inc. All Rights Reserved. </small>
+                </div>
+                <div class="column right">
+                    <img src="../pics/mail.png" alt="mail logo" width="15"> <a href="../footer/contactus.html">Contact Us</a>
+                    <br>
+                    <img src="../pics/location.png" alt="location logo" width="15"> <a href="../footer/map.html">Location</a>
+                </div>
+            </div>
+        </div>
+       
     </body>
 </html>
