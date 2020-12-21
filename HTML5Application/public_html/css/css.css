@@ -256,3 +256,9 @@ input[type=reset]:hover {
 ::-ms-input-placeholder { /* Microsoft Edge */
  color: #636363;
 }
+
+.map{
+    width: 1480px;
+    height: 420px;
+    border: 0;
+}
