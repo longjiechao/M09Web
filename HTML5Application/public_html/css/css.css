@@ -1,5 +1,5 @@
 /* FONTS */
-body, h1, h2, h3, h4, h5, h6, a, textarea, input{
+body, h1, h2, h3, h4, h5, h6, a, p, textarea, input{
   font-family: "Times New Roman", Times, serif;
   font-size-adjust: 0.5;
 }
@@ -9,6 +9,11 @@ h1, h2, h3, h4, h5, h6{
     font-weight: bold;
 }
 
+p{
+    font-size: 18px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
 
 body{
     background-color: black;
@@ -261,4 +266,22 @@ input[type=reset]:hover {
     width: 1480px;
     height: 420px;
     border: 0;
+}
+
+.singlePhoto {
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.partner{
+    float: left;
+    width: 25%;
+    margin-right: 1%;
+    margin-bottom: 0.5em;
+}
+
+.pImg{
+    padding-left: 225px;
 }
