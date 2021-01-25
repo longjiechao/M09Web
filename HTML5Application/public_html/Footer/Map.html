@@ -1,60 +1,98 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
-    <head>
-        <title>RhyChords</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="apple-touch-icon" sizes="180x180" href="../pics/favicon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="../pics/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="../pics/favicon/favicon-16x16.png">
-        <link rel="manifest" href="../pics/favicon/site.webmanifest">
-        <link rel="stylesheet" href="../css/css.css" type="text/css">
-    </head>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Rhychords</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="../css/css.css" rel="stylesheet">
+</head>
     
-    <body>
-        <div class="header">
-            <a href="index.html">
-                <img src="../pics/logo.png" alt="logo" width="450">
-            </a> 
-            <br>
-            <a href="../index.html">Main</a> |
-            <div class="dropdown"> <a href="../Product.html">Product</a>  |
-                <div class="dropdown-content">
-                    <a href="../product/guitar.html">Guitar</a>
-                    <a href="../product/bass.html">Bass</a>
-                    <a href="../product/ukulele.html">Ukulele</a>
-                </div>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <img src="../pics/logo.png" alt="logo" width="200">
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../index.html">Main</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../product.html">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../footer/contactus.html">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="map.html">Location</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!--- Welcome Section -->
+<div class="container-fluid padding">
+    <div class="row welcome text-center">
+        <div class="col-12">
+            <h1 class="display-4">Location</h1>
+        <hr>
+    </div>
+</div>
+    
+<!--- Google Map -->
+<div class="map-responsive">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2988.8968381019313!2d2.0290195152929!3d41.484836179255375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4917494453b35%3A0x95f4de9dd16fa0cb!2zUGxhw6dhIENvbnN0aXR1Y2nDsywgOSwgMDgxOTEgUnViw60sIEJhcmNlbG9uYQ!5e0!3m2!1ses!2ses!4v1611594578757!5m2!1ses!2ses"
+        frameborder="0" style="border:0" allowfullscreen width="1480" height="420"
+        ></iframe>
+</div>
+                    
+<!--- Footer -->
+<footer>
+    <div class="container-fluid padding">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <img src="../pics/logo2.png" width="220">
+                <hr class="light">
+                <p>+39 123-45-67-89</p>
+                <p>music@rhychords.com</p>
+                <p>Plaza Constitucion</p>
+                <p>Rubí, Spain, 08191</p>
             </div>
-            <div class="dropdown"> Discover Us
-                <div class="dropdown-content">
-                    <a href="../discoverus/aboutus.html">About Us</a>
-                    <a href="../discoverus/partners.html">Partners</a>
-                </div>
+            <div class="col-md-4">
+                <hr class="light">
+                <h5>Our Hours</h5>
+                <hr class="light">
+                <p>Monday: 9:00AM - 5:00PM</p>
+                <p>Saturday: 10:00AM - 3:00PM</p>
+                <p>Sunday: Closed</p>
+            </div>
+            <div class="col-md-4">
+                <hr class="light">
+                <h5>Service Area</h5>
+                <hr class="light">
+                <p>Rubí, Spain, 08191</p>
+                <p>Terrassa, Spain, 08225</p>
+            </div>
+            <div class="col-12">
+                <hr class="light">
+                <h5>&copy; 2018, RhyChords Inc. All Rights Reserved.</h5>
             </div>
         </div>
-        
-        <div class="card">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d191562.86510167542!2d2.029459616406254!3d41.39211940000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a288e0a57675%3A0xf3da9b0a929bfc2b!2sFanatic%20Guitars!5e0!3m2!1sen!2ses!4v1607094677960!5m2!1sen!2ses"
-                    class="map"></iframe>
-        </div>
-        
-        <div class="footer">
-            <div class="row">
-            <div class="column left">
-                <small> &copy; 2018, RhyChords Inc. All Rights Reserved. </small>
-            </div>
-            <div class="column right">
-                <img src="../pics/mail.png" alt="mail logo" width="15"> <a href="contactus.html">Contact Us</a>
-                <br>
-                <img src="../pics/location.png" alt="location logo" width="15"> <a href="map.html">Location</a>
-            </div>
-            </div>
-	</div>
-        
-    </body>
+    </div>
+</footer>
+       
+</body>
 </html>

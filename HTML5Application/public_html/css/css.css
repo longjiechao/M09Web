@@ -43,15 +43,6 @@ html, body {
     padding-bottom: 1rem;
 }
 
-.btn-primary {
-    background-color: #A9A9A9;
-    border: #e5e5e5;
-}
-
-.btn-primary:hover {
-    background-color: #D3D3D3;
-}
-
 .padding {
     padding-bottom: 2rem;
 }
@@ -94,7 +85,7 @@ hr.light-100 {
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
-    
+
   }
 @media (max-width: 768px) {
     .carousel-caption {
@@ -117,6 +108,9 @@ hr.light-100 {
     }
     .display-4 {
         font-size: 200%;
+    }
+    .productImg{
+        width: 100%;
     }
 }
 @media (max-width: 576px) {
@@ -189,8 +183,60 @@ figure {
     padding: 1rem;
 }
 
+/* Contact Form*/
 
+.get-in-touch {
+  max-width: 800px;
+  margin: 0px auto;
+  position: relative;
 
+}
+
+.contact-form .form-field {
+  position: relative;
+  margin: 20px 0;
+}
+.contact-form .input-text {
+  display: block;
+  width: 100%;
+  height: 36px;
+  border-width: 0 0 2px 0;
+  border-color: #7E7E7E;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+}
+.contact-form .input-text:focus {
+  outline: none;
+}
+
+.contact-form .submit-btn {
+  display: inline-block;
+  background-color: #000;
+   background-image: linear-gradient(125deg,#D3D3D3,#7E7E7E);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding: 8px 16px;
+  border: none;
+  width:200px;
+  cursor: pointer;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
 
 
 /*

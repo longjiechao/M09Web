@@ -16,7 +16,7 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
     <div class="container-fluid">
-        <a class="navbar-brand" href="../index.html">
+        <a class="navbar-brand" href="index.html">
             <img src="../pics/logo.png" alt="logo" width="200">
         </a>
         
@@ -33,7 +33,10 @@
                     <a class="nav-link" href="../product.html">Products</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="ContactUs.html">Contact Us</a>
+                    <a class="nav-link" href="../footer/contactus.html">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="map.html">Location</a>
                 </li>
             </ul>
         </div>
@@ -51,27 +54,21 @@
     
 <!--- Form -->
 <section class="get-in-touch">
-   <h1 class="title">Get in touch</h1>
    <form class="contact-form row">
       <div class="form-field col-lg-6">
-         <input id="name" class="input-text js-input" type="text" required>
-         <label class="label" for="name">Name</label>
+         <input id="name" class="input-text js-input" name="name" placeholder="Name..." type="text" required>
       </div>
       <div class="form-field col-lg-6 ">
-         <input id="email" class="input-text js-input" type="email" required>
-         <label class="label" for="email">E-mail</label>
+         <input id="email" class="input-text js-input" name="email" placeholder="E-mail..." type="email" required>
       </div>
       <div class="form-field col-lg-6 ">
-         <input id="company" class="input-text js-input" type="text" required>
-         <label class="label" for="company">Company Name</label>
+         <input id="company" class="input-text js-input" name="address" placeholder="Address..." type="text" required>
       </div>
        <div class="form-field col-lg-6 ">
-         <input id="phone" class="input-text js-input" type="text" required>
-         <label class="label" for="phone">Contact Number</label>
+         <input id="phone" class="input-text js-input" name="phone" placeholder="Telephone Number..." type="text" required>
       </div>
       <div class="form-field col-lg-12">
-         <input id="message" class="input-text js-input" type="text" required>
-         <label class="label" for="message">Message</label>
+         <input id="message" class="input-text js-input" name="message" placeholder="Message..." type="text" required>
       </div>
       <div class="form-field col-lg-12">
          <input class="submit-btn" type="submit" value="Submit">
