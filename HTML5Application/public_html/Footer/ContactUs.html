@@ -1,81 +1,118 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
-    <head>
-        <title>RhyChords</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="apple-touch-icon" sizes="180x180" href="../pics/favicon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="../pics/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="../pics/favicon/favicon-16x16.png">
-        <link rel="manifest" href="../pics/favicon/site.webmanifest">
-        <link rel="stylesheet" href="../css/css.css" type="text/css">
-    </head>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Rhychords</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="css/css.css" rel="stylesheet">
+</head>
     
-    <body>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <img src="pics/logo.png" alt="logo" width="200">
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Main</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="product.html">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
-        <div class="header">
-            <a href="index.html">
-                <img src="../pics/logo.png" alt="logo" width="450">
-            </a> 
-            <br>
-            <a href="../index.html">Main</a> |
-            <div class="dropdown">
-                <a href="../Product.html">Product</a>  |
-                <div class="dropdown-content">
-                    <a href="../product/guitar.html">Guitar</a>
-                    <a href="../product/bass.html">Bass</a>
-                    <a href="../product/ukulele.html">Ukulele</a>
-                </div>
+<!--- Welcome Section -->
+<div class="container-fluid padding">
+    <div class="row welcome text-center">
+        <div class="col-12">
+            <h1 class="display-4">Contact Us</h1>
+        <hr>
+    </div>
+</div>
+    
+<!--- Form -->
+<section class="get-in-touch">
+   <h1 class="title">Get in touch</h1>
+   <form class="contact-form row">
+      <div class="form-field col-lg-6">
+         <input id="name" class="input-text js-input" type="text" required>
+         <label class="label" for="name">Name</label>
+      </div>
+      <div class="form-field col-lg-6 ">
+         <input id="email" class="input-text js-input" type="email" required>
+         <label class="label" for="email">E-mail</label>
+      </div>
+      <div class="form-field col-lg-6 ">
+         <input id="company" class="input-text js-input" type="text" required>
+         <label class="label" for="company">Company Name</label>
+      </div>
+       <div class="form-field col-lg-6 ">
+         <input id="phone" class="input-text js-input" type="text" required>
+         <label class="label" for="phone">Contact Number</label>
+      </div>
+      <div class="form-field col-lg-12">
+         <input id="message" class="input-text js-input" type="text" required>
+         <label class="label" for="message">Message</label>
+      </div>
+      <div class="form-field col-lg-12">
+         <input class="submit-btn" type="submit" value="Submit">
+      </div>
+   </form>
+</section>
+        
+<!--- Footer -->
+<footer>
+    <div class="container-fluid padding">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <img src="pics/logo2.png" width="220">
+                <hr class="light">
+                <p>+39 123-45-67-89</p>
+                <p>music@rhychords.com</p>
+                <p>Plaza Constitucion</p>
+                <p>Rubí, Spain, 08191</p>
             </div>
-            <div class="dropdown"> Discover Us
-                <div class="dropdown-content">
-                    <a href="../discoverus/aboutus.html">About Us</a>
-                    <a href="../discoverus/partners.html">Partners</a>
-                </div>
+            <div class="col-md-4">
+                <hr class="light">
+                <h5>Our Hours</h5>
+                <hr class="light">
+                <p>Monday: 9:00AM - 5:00PM</p>
+                <p>Saturday: 10:00AM - 3:00PM</p>
+                <p>Sunday: Closed</p>
+            </div>
+            <div class="col-md-4">
+                <hr class="light">
+                <h5>Service Area</h5>
+                <hr class="light">
+                <p>Rubí, Spain, 08191</p>
+                <p>Terrassa, Spain, 08225</p>
+            </div>
+            <div class="col-12">
+                <hr class="light">
+                <h5>&copy; 2018, RhyChords Inc. All Rights Reserved.</h5>
             </div>
         </div>
-
-        <div class="card">
-            <br>
-            <form action="/action_page.php">
-            <input type="text" id="name" placeholder="Name..." name="fname">
-            <input type="text" id="lastname" placeholder="Last Name..." name="lname"> <br>
-            <input type="text" id="zip" placeholder="ZIP Code..." name="zip">
-            <input type="text" id="city"  placeholder="City..." name="city">
-            <input type="text" id="country"  placeholder="Country..." name="country"> <br>
-            <input type="tel"  placeholder="Telephone Number..." name="tel">
-            <input type="email"  placeholder="Email Address..." name="email"> <br>
-            <input type="text" id="subject" placeholder="Subject..." name="subject">
-            <textarea placeholder="Message..."></textarea>  
-            <br>
-            <div class="btn">
-                <input type="reset" value="Reset">
-                <input type="submit" value="Submit">
-            </div>
-          </form>
-        </div>
-        
-        <div class="footer">
-            <div class="row">
-                <div class="column left">
-                    <small>
-                        &copy; 2018, RhyChords Inc. All Rights Reserved.
-                    </small>
-                </div>
-                <div class="column right">
-                    <img src="../pics/mail.png" alt="mail logo" width="15">
-                    <a href="contactus.html">Contact Us</a>
-                    <br>
-                    <img src="../pics/location.png" alt="location logo" width="15"> 
-                    <a href="map.html">Location</a>
-                </div>
-            </div> 
-	</div>
-        
-    </body>
+    </div>
+</footer>
+       
+</body>
 </html>
