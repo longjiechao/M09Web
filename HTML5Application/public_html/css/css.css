@@ -83,6 +83,11 @@ hr.light-100 {
     margin-bottom: 1rem;
 }
 
+.jumbotron {
+    padding: 1rem;
+    border-radius: 0;
+}
+
 /*---Media Queries --*/
 @media (max-width: 992px) {
 
@@ -165,7 +170,6 @@ figure {
   height: 100%;
 }
 #fixed {
-  background-image: url('img/mac.png');
   position: fixed;
   display: block;
   top: 0;
@@ -238,6 +242,12 @@ figure {
     position:absolute;
 }
 
+/*Videos*/
+
+.vid-container {
+    width : 1350px;
+    height: 725px;
+}
 
 /*
 Extra small (xs) devices (portrait phones, less than 576px)

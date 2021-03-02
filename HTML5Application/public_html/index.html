@@ -58,8 +58,13 @@
                 <h1 class="display-2">Welcome</h1>
                 <h3>to Rhychords</h3>
                 <a href="Product.html">
-                    <button type="button" class="btn btn-online-light btn-lg">Products</button>
-                </a>
+                    <button type="button" class="btn btn-online-light btn-lg">Products</button> 
+                </a> <br> <br>
+                <audio loop id="player" src="music/KMNABK.mp3"></audio>
+                <div>
+                    <button onclick="document.getElementById('player').play()"><i class="fa fa-play"></i></button>
+                    <button onclick="document.getElementById('player').pause()"><i class="fa fa-pause"></i></button>
+                </div>
             </div>
         </div>
         <div class="carousel-item">
@@ -71,13 +76,17 @@
     </div>
 </div>
 
-<!--- Musics -->
-<audio controls autoplay loop>
-    <source src="music/title screen intro.ogg" type="audio/ogg">
-    Your browser does not support the audio element.
-</audio>
-
-
+    <!--- Video Background Section -->
+<figure>
+    <div class="fixed-wrap">
+        <div id="fixed">
+            <video width="1400" muted loop autoplay>
+            <source src="music/careless.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        </div>
+    </div>
+</figure>   
 
 <!--- Welcome Section -->
 <div class="container-fluid padding">
@@ -116,19 +125,34 @@
             <p>Rhychords is one of the largest online and mail order retailer for musical instruments worldwide, having about 1m customers in 120 countries and 1000 products to offer. We are musicians ourselves and share your passion for making it. As a company, we have a single objective: making you, our customer, happy.</p>
         </div>
         <div class="col-lg-6">
-            <img src="discoverus/aboutus.jpg" alt="company" class="img-fluid">
+            <video autoplay loop controls>
+                <source src="music/feel good.mp4" type="video/mp4">
+            </video>
         </div>
     </div>
 </div>
 
 <hr class="my-4">
-<!--- Fixed background -->
-<figure>
-    <div class="fixed-wrap">
-        <div id="fixed"></div>
+<!--- Jumbotron -->
+<div class="container-fluid">
+    <div class="row jumbotron">
+        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+            <p class="lead">1. Slipping through my fingers (demo) </p>
+                <audio id="player1" src="music/slipping_1.mp3"></audio>
+                <div>
+                    <button onclick="document.getElementById('player1').play()"><i class="fa fa-play"></i></button>
+                    <button onclick="document.getElementById('player1').pause()"><i class="fa fa-pause"></i></button>
+                </div>
+                <br>
+            <p class="lead">2. This masquerade (demo) </p>
+                <audio id="player2" src="music/masquerade.mp3"></audio>
+                <div>
+                    <button onclick="document.getElementById('player2').play()"><i class="fa fa-play"></i></button>
+                    <button onclick="document.getElementById('player2').pause()"><i class="fa fa-pause"></i></button>
+                </div>
+        </div>
     </div>
-</figure>
-
+</div>
 
 <!--- Footer -->
 <footer>
