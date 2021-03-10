@@ -7,6 +7,10 @@ html, body {
     color: #222;
 }
 
+.threeImg {
+    width: 400px;
+}
+
 .navbar {
     padding: 0.8rem;
 }
@@ -171,6 +175,11 @@ hr.light-100 {
 
   }
 @media (max-width: 768px) {
+    
+    .threeImg {
+        width: 200px;
+    }
+    
     .carousel-caption {
         top: 45%;
     }
