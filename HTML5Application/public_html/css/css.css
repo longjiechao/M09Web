@@ -88,6 +88,84 @@ hr.light-100 {
     border-radius: 0;
 }
 
+.fun {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.fa-compact-disc {
+    font-size: 5rem;
+    color: #5f616d;
+    -webkit-transition: 1s ease-out;
+    -moz-transition: 1s ease-out;
+    transition:  1s ease-out;
+}
+
+.fa-compact-disc:hover {
+    color: black;
+    -webkit-transform: rotateZ(720deg);
+    -moz-transform: rotateZ(720deg);
+    transform: rotateZ(720deg);
+}
+
+.fa-music {
+    font-size: 5rem;
+    color: #5f616d;
+    -webkit-transition: 0.5s ease-out;
+    -moz-transition: 0.5s ease-out;
+    transition:  0.5s ease-out;
+}
+.fa-music:hover {
+    color: red;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+@-webkit-keyframes bell {
+    0%, 100% {
+        -webkit-transform: translateX(0);
+    } 
+    10%, 30%, 50%, 70%, 90% {
+        -webkit-transform: translateX(-10px);
+    } 
+    0%, 40%, 60%, 80% {
+        -webkit-transform: translateX(10px);
+    } 
+}
+ 
+@keyframes bell {
+    0%, 100% {
+      transform: translateX(0);
+    } 
+    10%, 30%, 50%, 70%, 90% {
+        transform: translateX(-10px);
+    } 
+    20%, 40%, 60%, 80% {
+        transform: translateX(10px);
+    } 
+}
+
+.fa-bell {
+    font-size: 5rem;
+    color: #5f616d;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    -moz-transition: 1s ease-out;
+    transition:  1s ease-out;
+}
+.fa-bell:hover {
+    color: #ecab16;
+    -webkit-animation-name: bell;
+    animation-name: bell;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+
 /*---Media Queries --*/
 @media (max-width: 992px) {
 
