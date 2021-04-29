@@ -171,8 +171,13 @@ hr.light-100 {
 
 
 /*---Media Queries --*/
-@media (max-width: 992px) {
-
+@media (max-width: 1203px) {
+    .threeImg {
+        width: 180px;
+    }
+    h2{
+        font-size: 26px;
+    }
   }
 @media (max-width: 768px) {
     
