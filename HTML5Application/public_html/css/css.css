@@ -330,10 +330,9 @@ figure {
 }
 
 /*Videos*/
-
-.vid-container {
-    width : 1350px;
-    height: 725px;
+video {
+    width: 100%;
+    height: auto;
 }
 
 /*
